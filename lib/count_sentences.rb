@@ -32,7 +32,7 @@ class String
 
 #self = "one. two. three?"
   def count_sentences
-    self.split('?','!').count 
+    self.split.count 
     #binding.pry 
   end
 end
