@@ -36,7 +36,7 @@ class String
     self.split.count 
     #self.each do |element|
       #i += 1 
-    binding.pry 
+    #binding.pry 
     #end 
   end
 end
