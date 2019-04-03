@@ -37,6 +37,6 @@ class String
     self.collect.index do |array, i|
       
     binding.pry 
-
+    end 
   end
 end
