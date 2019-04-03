@@ -32,11 +32,7 @@ class String
 
 #self = "one. two. three?"
   def count_sentences
-    #i = 1
     self.split.count 
-    #self.each do |element|
-      #i += 1 
-    #binding.pry 
-    #end 
+    binding.pry 
   end
 end
