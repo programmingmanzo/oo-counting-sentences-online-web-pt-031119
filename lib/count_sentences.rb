@@ -25,7 +25,7 @@ class String
       true 
     else 
       false 
-      binding.pry 
+      #binding.pry 
     end 
   end
 
