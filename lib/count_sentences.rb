@@ -35,6 +35,7 @@ class String
     count = [] 
     self.split 
     self.collect.index do |array, i|
+      count << i
       
     binding.pry 
     end 
