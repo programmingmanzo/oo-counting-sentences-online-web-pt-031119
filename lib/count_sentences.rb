@@ -34,7 +34,7 @@ class String
   def count_sentences
     count = [] 
     self.split 
-    self.collect.index do |array, i|
+    self.each.index do |array, i|
       count << i
       
     binding.pry 
