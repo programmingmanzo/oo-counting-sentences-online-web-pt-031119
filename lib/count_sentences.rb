@@ -32,7 +32,10 @@ class String
 
 #self = "one. two. three?"
   def count_sentences
+    count = [] 
     self.split 
+    self.collect.index do |array, i|
+      
     binding.pry 
 
   end
