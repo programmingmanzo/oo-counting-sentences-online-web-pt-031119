@@ -31,8 +31,9 @@ class String
   
 
 #self = "one. two. three?"
+#
   def count_sentences
     self.split.count 
-    #binding.pry 
+    binding.pry 
   end
 end
