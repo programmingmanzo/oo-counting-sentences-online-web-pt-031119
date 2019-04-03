@@ -37,7 +37,7 @@ class String
       self.split.count 
     else 
     self.split(",").count 
-    binding.pry 
+    #binding.pry 
     end
   end
 end
