@@ -33,10 +33,11 @@ class String
 #self = "one. two. three?"
   def count_sentences
     i = 1
-    self.split 
+    self.split(".", "?", "!")
     self.each do |element|
       i += 1 
     binding.pry 
     end 
+    i
   end
 end
