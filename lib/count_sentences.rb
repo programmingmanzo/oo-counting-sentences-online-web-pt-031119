@@ -33,7 +33,7 @@ class String
 #self = "This, well, is a sentence. This is too!! And so is this, I think? Woo..."
 
   def count_sentences
-    if self.end_with?(".") == true 
+    if self.end_with?(".") == false  
       self.split.count 
     else 
     self.split(",").count 
